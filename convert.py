@@ -23,7 +23,9 @@ cookie = ""
 # example: (肯定是不能用的)
 # cookie = "LYSESSIONID=f4f175ff-e432-435n-b93e-7y653edf00fc; user=fjdkenakclxmdnghbcialcnxma63hdz9ftmn84han04adxa34fawibmFtZSI6Iuefs+a9hyIsImxvZ2luUGF0dGVyfjaudxlaneblndxl46hgndkuhanxjsl8fhandlxh5"
 
+# 设置学期和开学日期
 semester = "2023-1"
+start_day = "2023-08-27"
 
 url = "https://cms.sysu.edu.cn/start-class/classTableInfo/selectStudentClassTable"
 
@@ -72,7 +74,6 @@ course_time = [
 ]
 
 cal = ics.Calendar()
-start_day = "2023-08-27"
 tz = datetime.timezone(datetime.timedelta(hours=8))
 
 for i in range(from_week, to_week):
