@@ -20,6 +20,9 @@ def parse_data(x: str):
 # 在这里设置cookie
 cookie = ""
 
+if cookie == "":
+    cookie = os.environ.get("COOKIE")
+
 # example: (肯定是不能用的)
 # cookie = "LYSESSIONID=f4f175ff-e432-435n-b93e-7y653edf00fc; user=fjdkenakclxmdnghbcialcnxma63hdz9ftmn84han04adxa34fawibmFtZSI6Iuefs+a9hyIsImxvZ2luUGF0dGVyfjaudxlaneblndxl46hgndkuhanxjsl8fhandlxh5"
 
