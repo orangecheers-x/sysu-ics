@@ -4,7 +4,7 @@
 
 ## 使用方法
 
-登陆课程管理系统后, 在随便一个请求里的请求头中拿到cookie, 写入convert.py里的cookie变量里就行.
+登陆课程管理系统后, 在随便一个请求里的请求头中拿到cookie, 写入convert.py里的cookie变量里就行, 或者写入COOKIE环境变量中.
 
 ![cookie在这呢](docs/img.png)
 
