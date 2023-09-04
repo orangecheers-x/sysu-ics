@@ -107,7 +107,7 @@ for i in range(from_week, to_week):
                 event.begin = current_day.replace(
                     hour=hour, minute=minute)
                 (hour, minute) = list(
-                    map(int, course_time[k][0].split(":")[0:2]))
+                    map(int, course_time[k][1].split(":")[0:2]))
                 event.end = current_day.replace(
                     hour=hour, minute=minute)
                 event.location = kb[k][j]['skdd']
