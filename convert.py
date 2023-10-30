@@ -114,7 +114,7 @@ for i in range(from_week, to_week):
                 event.end = current_day.replace(
                     hour=hour, minute=minute)
                 event.location = kb[k][j]['skdd']
-                event.description = kb[k][j]['rkjs']
+                event.description = '第' + str(i) + '周, ' + kb[k][j]['rkjs']
                 cal.events.add(event)
                 la = k+1
 
