@@ -28,7 +28,7 @@ if cookie == "":
 
 # 设置学期和开学日期
 semester = "2023-2"
-start_day = "2024-02-26"
+start_day = "2024-02-25"
 
 url = "https://cms.sysu.edu.cn/start-class/classTableInfo/selectStudentClassTable"
 
