@@ -27,8 +27,8 @@ if cookie == "":
 # cookie = "LYSESSIONID=f4f175ff-e432-435n-b93e-7y653edf00fc; user=fjdkenakclxmdnghbcialcnxma63hdz9ftmn84han04adxa34fawibmFtZSI6Iuefs+a9hyIsImxvZ2luUGF0dGVyfjaudxlaneblndxl46hgndkuhanxjsl8fhandlxh5"
 
 # 设置学期和开学日期
-semester = "2023-1"
-start_day = "2023-08-27"
+semester = "2023-2"
+start_day = "2024-02-26"
 
 url = "https://cms.sysu.edu.cn/start-class/classTableInfo/selectStudentClassTable"
 
@@ -97,6 +97,7 @@ for i in range(from_week, to_week):
         la = 0
         for k in range(11):
             if kb[k][j] is None:
+                la += 1
                 continue
             if is_first:
                 la = k
